@@ -25,6 +25,8 @@ html {
 }
 
 body {
+  user-select: none;
+  -webkit-user-select: none;
   min-height: 100vh;
   color: var(--color-light);
   background-color: var(--color-darkest);
@@ -86,7 +88,7 @@ h2 {
 }
 
 h3 {
-  font-size: clamp(1.8rem, 3.5vw, 2.2rem);
+  font-size: clamp(1.7rem, 2.7vw, 2rem);
   font-weight: 600;
   margin-bottom: 4rem;
 }
