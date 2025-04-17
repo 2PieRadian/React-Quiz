@@ -10,7 +10,7 @@
 
 @font-face {
   font-family: Iosevka-Regular;
-  src: url('./fonts/Iosevka-Regular.ttc');
+  src: url("./fonts/Iosevka-Regular.ttc");
 }
 
 * {
@@ -88,7 +88,7 @@ h2 {
 }
 
 h3 {
-  font-size: clamp(1.7rem, 2.7vw, 2rem);
+  font-size: clamp(1.5rem, 2.7vw, 2rem);
   font-weight: 600;
   margin-bottom: 4rem;
 }
